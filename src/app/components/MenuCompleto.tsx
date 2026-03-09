@@ -107,7 +107,7 @@ function TacosPromos({ onOpen }: { onOpen: (src: string, alt: string) => void })
               </p>
             </div>
             <span className="ml-auto bg-[#F39200] text-white font-['Luckiest_Guy',cursive] text-lg px-4 py-2 rounded-full whitespace-nowrap">
-              2 &times; $70
+              2 &times; $80
             </span>
           </div>
         </div>
