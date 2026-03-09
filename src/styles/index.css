@@ -8,12 +8,47 @@
 }
 
 @media (max-width: 768px) {
-  /* Selecciona la imagen de la taquiza */
-  .contenedor-menu img {
-    width: 100%;       /* Ocupa el ancho total del celular */
-    height: auto;      /* Mantiene la proporción para que se vea completa */
-    max-width: 450px;  /* Evita que se vea demasiado grande en tablets */
-    display: block;    /* Elimina espacios extra debajo de la imagen */
-    margin: 0 auto;    /* La centra horizontalmente */
+  /* Contenedor principal de la sección de taquizas */
+  .contenedor-taquiza { 
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos hacia abajo */
+    align-items: center;
+    padding: 10px 0;
   }
+
+  /* Ajuste para que la imagen NO se corte */
+  .contenedor-taquiza img {
+    width: 95%;        /* Deja un pequeño margen a los lados para que respire */
+    height: auto;      /* IMPORTANTE: Esto evita que la imagen se estire o se corte */
+    max-width: 500px;  /* Evita que en tablets se vea demasiado grande */
+    display: block;
+    border-radius: 12px; /* Opcional: para que se vea más moderno */
+  }
+}
+@media (max-width: 768px) {
+  .info-evento {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .boton-cotizar {
+    width: 85%;
+    padding: 12px;
+    font-size: 1rem;
+    margin: 20px auto;
+  }
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* Esto corta cualquier elemento que intente salirse a la derecha */
+  margin: 0;
+  padding: 0;
+}
+.navbar { /* Usa el nombre de la clase de tu menú */
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Esto pone el logo a la izquierda y la hamburguesa a la derecha */
+  padding: 0 20px; /* Les da aire para que no peguen en las orillas */
+  box-sizing: border-box; /* Crucial para que el padding no sume ancho extra */
 }

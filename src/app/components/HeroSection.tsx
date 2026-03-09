@@ -3,7 +3,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 const WHATSAPP_LINK = "https://wa.me/529231115417?text=Hola%2C%20quiero%20cotizar%20una%20taquiza";
 
 const HERO_IMG =
-  "https://raw.githubusercontent.com/jaredgg17/audio/f597b30d1aaa63110c5206b80d95b54db2bbc0b4/taqueria/ChatGPT%20Image%2026%20feb%202026%2C%2004_19_15%20p.m..png";
+  "https://raw.githubusercontent.com/jaredgg17/audio/main/heroimagetacos.png";
 
 export function HeroSection() {
   return (
