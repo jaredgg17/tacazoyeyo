@@ -3,7 +3,7 @@ import { Flame, Tag, Star, Utensils, Gift, CreditCard, ChefHat, Sparkles, X } fr
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const menuImg = "https://raw.githubusercontent.com/jaredgg17/audio/main/menuimage1.jpeg";
-const menuImg2 = "https://raw.githubusercontent.com/jaredgg17/audio/main/menuimage2.jpeg";
+const altmenuImg2 = "https://raw.githubusercontent.com/jaredgg17/audio/main/menuimage2.jpeg";
 
 const IMG_TACOS = "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%2026%20feb%202026%2C%2011_06_16%20p.m..png";
 
@@ -299,9 +299,9 @@ export function MenuCompleto() {
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-14">
           <div
             className="rounded-2xl overflow-hidden shadow-xl border-4 border-[#F4B441] max-w-xs hover:scale-[1.02] transition-transform cursor-zoom-in"
-            onClick={() => openModal(menuImg2, "Menú Tacos")}
+            onClick={() => openModal(altmenuImg2, "Menú Tacos")}
           >
-            <ImageWithFallback src={menuImg2} alt="Menú Tacos" className="w-full h-auto" />
+            <ImageWithFallback src={altmenuImg2} alt="Menú Tacos" className="w-full h-auto" />
           </div>
           <div
             className="rounded-2xl overflow-hidden shadow-xl border-4 border-[#F4B441] max-w-xs hover:scale-[1.02] transition-transform cursor-zoom-in"
