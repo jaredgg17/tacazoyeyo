@@ -2,13 +2,13 @@ import { useState } from "react";
 import { Flame, Tag, Star, Utensils, Gift, CreditCard, ChefHat, Sparkles, X } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const menuImg = "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.03.07%20(2).jpeg?raw=true";
-const menuImg2 = "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.03.07%20(3).jpeg?raw=true";
+const menuImg = "https://raw.githubusercontent.com/jaredgg17/audio/main/menuimage1.jpeg";
+const menuImg2 = "https://raw.githubusercontent.com/jaredgg17/audio/main/menuimage2.jpeg";
 
-const IMG_TACOS = "https://github.com/jaredgg17/audio/blob/main/taqueria/ChatGPT%20Image%2026%20feb%202026,%2011_06_16%20p.m..png?raw=true";
+const IMG_TACOS = "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%2026%20feb%202026%2C%2011_06_16%20p.m..png";
 
 const IMG_TORTA = "https://raw.githubusercontent.com/jaredgg17/audio/fc3956fedb01e2e3d5dbb84219cc3413ed89fa3f/taqueria/ChatGPT%20Image%201%20mar%202026%2C%2004_50_57%20p.m..png";
-const IMG_CATERING = "https://github.com/jaredgg17/audio/blob/main/taqueria/ChatGPT%20Image%201%20mar%202026,%2004_57_07%20p.m..png?raw=true";
+const IMG_CATERING = "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%201%20mar%202026%2C%2004_57_07%20p.m..png";
 
 
 /* ── Lightbox Modal ── */
