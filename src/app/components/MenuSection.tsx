@@ -53,22 +53,22 @@ const specialties = [
   {
     name: "Fortachón",
     description: "Generosa porción de carne con cebollitas asadas y tortillas hechas a mano.",
-    img: "https://github.com/jaredgg17/audio/blob/main/taqueria/ChatGPT%20Image%201%20mar%202026,%2005_06_04%20p.m..png?raw=true",
+    img: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%201%20mar%202026%2C%2005_06_04%20p.m..png",
   },
   {
     name: "Parrillada",
     description: "Selección de carnes a la parrilla con cebollitas asadas y tortillas.",
-    img: "https://github.com/jaredgg17/audio/blob/main/taqueria/ChatGPT%20Image%201%20mar%202026,%2005_11_30%20p.m..png?raw=true",
+    img: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%201%20mar%202026%2C%2005_11_30%20p.m..png",
   },
   {
     name: "Alambre",
     description: "Carne, tocino, pimiento, cebolla y queso con cebollitas asadas y tortillas.",
-    img: "https://github.com/jaredgg17/audio/blob/main/taqueria/ChatGPT%20Image%201%20mar%202026,%2007_08_19%20p.m..png?raw=true",
+    img: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/ChatGPT%20Image%201%20mar%202026%2C%2007_08_19%20p.m..png",
   },
   {
     name: "Chop Suey",
     description: "Platillo especial estilo oriental con cebollitas asadas y tortillas.",
-    img: "https://github.com/jaredgg17/audio/blob/main/taqueria/Gemini_Generated_Image_la4mnala4mnala4m.png?raw=true",
+    img: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/Gemini_Generated_Image_la4mnala4mnala4m.png",
   },
 ];
 

@@ -3,23 +3,23 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const galleryImages = [
   {
-    src: "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.46.jpeg?raw=true",
+    src: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.46.jpeg",
     alt: "Evento de taquiza",
   },
   {
-    src: "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.46%20(1).jpeg?raw=true",
+    src: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.46%20(1).jpeg",
     alt: "Fiesta mexicana",
   },
   {
-    src: "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.45.jpeg?raw=true",
+    src: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.45.jpeg",
     alt: "Buffet de tacos",
   },
   {
-    src: "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.44.jpeg?raw=true",
+    src: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.44.jpeg",
     alt: "Trompo de pastor",
   },
   {
-    src: "https://github.com/jaredgg17/audio/blob/main/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.44%20(1).jpeg?raw=true",
+    src: "https://raw.githubusercontent.com/jaredgg17/audio/161a71e450f52dd6898eef2ccfc2bacdf3ce42bd/taqueria/WhatsApp%20Image%202026-02-25%20at%2015.00.44%20(1).jpeg",
     alt: "Gente disfrutando tacos",
   },
  
