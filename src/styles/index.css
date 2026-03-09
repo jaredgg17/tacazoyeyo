@@ -1,3 +1,28 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+/* Estilos para escritorio (computadora) */
+.contenedor-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Estilos para celular (Media Query) */
+@media (max-width: 768px) {
+  .contenedor-menu {
+    flex-direction: column; /* Cambia de horizontal a vertical */
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%; /* Evita que la imagen se salga de la pantalla */
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px; /* Esto evita que el texto pegue en los bordes */
+  }
+}
