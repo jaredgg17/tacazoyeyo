@@ -7,22 +7,13 @@
   flex-direction: row;
 }
 
-/* Estilos para celular (Media Query) */
 @media (max-width: 768px) {
-  .contenedor-menu {
-    flex-direction: column; /* Cambia de horizontal a vertical */
-    align-items: center;
-  }
-  
-  img {
-    max-width: 100%; /* Evita que la imagen se salga de la pantalla */
-    height: auto;
-  }
-}
-@media (max-width: 768px) {
-  .contenedor-menu {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px; /* Esto evita que el texto pegue en los bordes */
+  /* Selecciona la imagen de la taquiza */
+  .contenedor-menu img {
+    width: 100%;       /* Ocupa el ancho total del celular */
+    height: auto;      /* Mantiene la proporción para que se vea completa */
+    max-width: 450px;  /* Evita que se vea demasiado grande en tablets */
+    display: block;    /* Elimina espacios extra debajo de la imagen */
+    margin: 0 auto;    /* La centra horizontalmente */
   }
 }
