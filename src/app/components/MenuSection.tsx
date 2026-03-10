@@ -47,6 +47,13 @@ const promos = [
     badge: "PROMO",
     color: "#F39200",
   },
+   {
+    title: "¿Qué me ves?",
+    subtitle: "2 x $80",
+    icon: Flame,
+    badge: "PROMO",
+    color: "#F39200",
+  },
 ];
 
 const specialties = [

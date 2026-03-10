@@ -4,7 +4,7 @@ const steps = [
   {
     icon: ClipboardList,
     title: "Elige tu paquete",
-    description: "Selecciona entre Pastor, Chuleta, Bistec o Especialidades.",
+    description: "Selecciona entre Pastor, Chuleta, Bistec.",
     color: "#F39200",
   },
   {
